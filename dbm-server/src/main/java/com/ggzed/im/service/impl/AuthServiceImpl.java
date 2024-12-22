@@ -93,6 +93,8 @@ public class AuthServiceImpl implements AuthService {
         vo.setMobile("15888889999");
         vo.setLastLogin("2021-11-11 12:00");
         vo.setRole(1);
+        vo.setIs_admin(1);
+        vo.setRole_name("管理员角色");
         PermissionInfoVo vo1 = new PermissionInfoVo();
         vo1.setUserId("2");
         vo1.setUsername("test");
